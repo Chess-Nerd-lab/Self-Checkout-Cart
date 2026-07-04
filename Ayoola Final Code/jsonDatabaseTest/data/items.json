@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "sku": "ITEM-00001",
+      "name": "Bottled Water",
+      "price": 250,
+      "weight": 500
+    },
+    {
+      "sku": "ITEM-00002",
+      "name": "Chocolate Bar",
+      "price": 300,
+      "weight": 45
+    }, 
+    {
+      "sku": "ITEM-00003",
+      "name": "Sausage Roll",
+      "price": 200,
+      "weight": 276
+    }, 
+    {
+      "sku": "ITEM-00004",
+      "name": "CocaCola Soda Drink",
+      "price": 500,
+      "weight": 450
+    }, 
+    {
+      "sku": "ITEM-00005",
+      "name": "Bread",
+      "price": 900,
+      "weight": 789
+    },
+    {
+      "sku": "ITEM-00006",
+      "name": "Bag of Water",
+      "price": 420,
+      "weight": 10000
+    }, 
+    {
+      "sku": "ITEM-00007",
+      "name": "Peanut",
+      "price": 120,
+      "weight": 35
+    }, 
+    {
+      "sku": "ITEM-00008",
+      "name": "Salt",
+      "price": 200,
+      "weight": 200
+    }
+  ]
+}

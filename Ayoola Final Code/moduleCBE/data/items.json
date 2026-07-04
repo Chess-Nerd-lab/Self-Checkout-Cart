@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "sku": "ITEM_00001",
+      "name": "Bottled Water",
+      "price": 250,
+      "weight": 500
+    },
+    {
+      "sku": "ITEM_00002",
+      "name": "Chocolate Bar",
+      "price": 300,
+      "weight": 45
+    }, 
+    {
+      "sku": "ITEM_00003",
+      "name": "Sausage Roll",
+      "price": 200,
+      "weight": 276
+    }, 
+    {
+      "sku": "ITEM_00004",
+      "name": "CocaCola Soda Drink",
+      "price": 500,
+      "weight": 450
+    }, 
+    {
+      "sku": "ITEM_00005",
+      "name": "Bread",
+      "price": 900,
+      "weight": 789
+    },
+    {
+      "sku": "ITEM_00006",
+      "name": "Bag of Water",
+      "price": 420,
+      "weight": 10000
+    }, 
+    {
+      "sku": "ITEM_00007",
+      "name": "Peanut",
+      "price": 120,
+      "weight": 35
+    }, 
+    {
+      "sku": "ITEM_00008",
+      "name": "Salt",
+      "price": 200,
+      "weight": 200
+    },
+    {
+      "sku": "ITEM_00009",
+      "name": "Chips",
+      "price": 120,
+      "weight": 89
+    },
+    {
+      "sku": "ITEM_00010",
+      "name": "Sugar satchet",
+      "price": 100,
+      "weight": 45
+    }, 
+    {
+      "sku": "ITEM_00011",
+      "name": "Pepsi Soda Drink",
+      "price": 500,
+      "weight": 497
+    }, 
+    {
+      "sku": "ITEM_00012",
+      "name": "La Casera Soda Drink",
+      "price": 300,
+      "weight": 329
+    }, 
+    {
+      "sku": "ITEM_00013",
+      "name": "Golden Penny Spread",
+      "price": 700,
+      "weight": 250
+    },
+    {
+      "sku": "ITEM_00014",
+      "name": "Gas Lighter",
+      "price": 200,
+      "weight": 56
+    },
+    {
+      "sku": "ITEM_00015",
+      "name": "Wooden Match Sticks",
+      "price": 100,
+      "weight": 39
+    }
+  ]
+}
