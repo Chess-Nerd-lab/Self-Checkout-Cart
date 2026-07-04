@@ -17,7 +17,7 @@ Remove Mode: A long press (yellow button) safely removes items, actively verifyi
 
 Secure Checkout Flow: A checkout mode that locks out new item additions and forces the user to empty the cart. The system remains locked until a store administrator scans a verification barcode.
 
-🛠️ Hardware Requirements
+Hardware Requirements
 Microcontroller: ESP32-S3 Development Board (Requires native USB/UART support)
 
 Scale: Load Cell + HX711 Amplifier Module
@@ -34,7 +34,7 @@ Push Button 2 (Pin 11): Enter Checkout Mode
 
 Active Buzzer: Security Alarms and Success Chimes
 
-🧠 Software Architecture
+Software Architecture
 
 System States:
 STATE_STARTUP_CHECK: Ensures the scale is empty (0g) before booting.
@@ -83,7 +83,7 @@ SCALE_EMPTY_RAW: Your scale's raw output when completely empty. Value Used: 2320
 
 SCALE_CAL_FACTOR: The calibration divider required to output weight in grams. Value Used: 1000, update if necessary using LoadCellTest.ino.
 
-📖 User Guide
+User Guide
 Normal Shopping
 Adding an Item: Scan a barcode. The display will prompt Place item on scale!. Place the item in the cart. The system will verify the weight and add the price to the total.
 
@@ -105,7 +105,7 @@ Once the cart is empty (0g) and all software items are cleared, the screen displ
 
 Store Staff must scan the Admin Barcode (ITEM_00006) to authorize the payment, which resets the cart for the next customer.
 
-🚨 Security & Troubleshooting
+Security & Troubleshooting
 Tamper Alarm: If an object is placed in the cart without being scanned, the alarm will sound continuously. Removing the unauthorized object instantly silences the alarm and restores normal operation.
 
 Admin Lockdown: If a user attempts to remove an item they never scanned, or if they take out the wrong amount of weight during a removal, the system enters a hard lockdown (ALARM! Admin Reqd.). It can only be unlocked by a store associate scanning the Admin Barcode.
