@@ -57,7 +57,7 @@ STATE_ADMIN_LOCK: Strict lockdown state triggered by a mismatched removal or the
 
 STATE_AWAITING_PAYMENT: Final lock requiring staff verification to complete the transaction.
 
-💻 Installation & Setup
+Installation & Setup
 1. Arduino IDE Configuration
 Install the ESP32 Board Package in the Arduino IDE.
 
